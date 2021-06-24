@@ -1,0 +1,27 @@
+
+/* selectors */
+/* id selector */
+#heading-one
+{
+    color:red;
+}
+
+/* class selector */
+.subheading
+{
+    color:green;
+}
+
+/* pseudo selector 1)for all list  */
+li:hover
+{
+    color:red;
+}
+/* pseudo selector 1)for specific list  */
+.item-list:hover
+{
+  color:blue;
+}
+h1{
+    color:yellow;
+}
