@@ -37,6 +37,13 @@ a:hover{
     color:crimson;
 }
 /* After visiting */
-.show-visited:visited{
+#show-visited:visited{
     color:yellow;
+}
+/* ul list childs style */
+li:first-child{
+    color:indigo;
+}
+li:last-child{
+    color:lightseagreen;
 }
