@@ -25,3 +25,18 @@ li:hover
 h1{
     color:yellow;
 }
+/* a:hover{
+    color:tomato; 
+}
+/* take google links  */
+/* select all link and mak them green */
+a:any-link{
+    color:rgb(26, 228, 26);
+}
+a:hover{
+    color:crimson;
+}
+/* After visiting */
+.show-visited:visited{
+    color:yellow;
+}
