@@ -1,9 +1,9 @@
-
 /* selectors */
 /* id selector */
 #heading-one
 {
     color:red;
+
 }
 
 /* class selector */
@@ -23,7 +23,7 @@ li:hover
   color:blue;
 }
 h1{
-    color:yellow;
+    color:green;
 }
 /* a:hover{
     color:tomato; 
@@ -47,3 +47,40 @@ li:first-child{
 li:last-child{
     color:lightseagreen;
 }
+/* attribute selector & border property*/
+
+/* 1)Anywhere : where ever you found fsd in src value give that image border*/
+
+img[src*="FSD"]
+{
+    border:12px solid yellow;
+}
+
+/* 2)at start with  ^ --which vale of src start with d:/ select that element and aply the propertis. 
+*/
+img[src^="D:/"]
+{
+    border:12px solid blue;
+}
+
+/* 3) end with '$ --which images end with .jpg apply properties on them.*/
+
+img[src$=".jpg"]
+{
+    border:12px solid red;
+}
+/* select image using class selector*/
+.img-one 
+{
+    border:20px solid gray;
+}
+/* select image using id selector*/
+#image-2
+{
+    border:10px solid purple;
+}
+/*preferences:
+1)id selector
+2)Attribute selector
+3)class selector
+*/
