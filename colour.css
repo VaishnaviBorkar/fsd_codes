@@ -38,3 +38,12 @@ background:#c612e6;
     backdrop-filter: blur(.4rem);
     border-radius: 1rem;
 }
+/* backgrownd linear gradient */
+#container-5
+{
+background:linear-gradient(to right, rgb(68, 14, 218), rgba(250, 8, 230, 0.3),rgb(230, 18, 81));
+}
+#container-6
+{
+background:linear-gradient(to left, rgb(141, 144, 148),  rgb(10, 10, 10));
+}
