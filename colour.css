@@ -47,3 +47,9 @@ background:linear-gradient(to right, rgb(68, 14, 218), rgba(250, 8, 230, 0.3),rg
 {
 background:linear-gradient(to left, rgb(141, 144, 148),  rgb(10, 10, 10));
 }
+/* radient gradient */
+#container-7
+{
+    background:radial-gradient(red 20%,green 50%,blue 60%);
+    border-radius:100%;
+}
