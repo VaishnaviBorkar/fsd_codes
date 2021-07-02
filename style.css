@@ -50,12 +50,12 @@ li:last-child{
 /* attribute selector & border property*/
 
 /* 1)Anywhere : where ever you found fsd in src value give that image border*/
-
+/*
 img[src*="FSD"]
 {
     border:12px solid yellow;
 }
-
+*/
 /* 2)at start with  ^ --which vale of src start with d:/ select that element and aply the propertis. 
 */
 /*
