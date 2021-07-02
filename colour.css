@@ -1,0 +1,31 @@
+body{
+    /* rgb values */
+    background-color:rgb(36, 83, 191);
+    margin:5px;
+}
+/* width height to all containers */
+.conatiner
+{
+    width:400px;
+    height:300px;
+}
+#container-1
+{
+/* colour name */
+ background-color:teal;
+border:5px solid black;
+text-align: center;
+}
+/* backgrownd image */
+#container-2
+{
+    background: url("D:/FSD/HTML Codes/images/is1IYE5UZJ.jpg");
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+/* hexa decimal values */
+#container-3
+{
+    background:#c612e6;
+}
