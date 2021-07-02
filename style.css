@@ -58,11 +58,12 @@ img[src*="FSD"]
 
 /* 2)at start with  ^ --which vale of src start with d:/ select that element and aply the propertis. 
 */
+/*
 img[src^="D:/"]
 {
     border:12px solid blue;
 }
-
+*/
 /* 3) end with '$ --which images end with .jpg apply properties on them.*/
 
 img[src$=".jpg"]
